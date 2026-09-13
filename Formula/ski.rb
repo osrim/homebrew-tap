@@ -1,28 +1,28 @@
 class Ski < Formula
   desc "Skill manager for coding agents"
   homepage "https://github.com/osrim/ski"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   depends_on "git"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/osrim/ski/releases/download/v0.2.1/ski-darwin-arm64.tar.gz"
-      sha256 "98b12d193e79f5ab1d6d11e421a18e400da11f1dd030ad06a930101c3bcb8591"
+      url "https://github.com/osrim/ski/releases/download/v0.2.2/ski-darwin-arm64.tar.gz"
+      sha256 "dec17545d48c701bccac0639b0130109f1da2168dc5103613e53c1bf0f607749"
     else
-      url "https://github.com/osrim/ski/releases/download/v0.2.1/ski-darwin-x64.tar.gz"
-      sha256 "e6f573ad45002514ec4e35eb58de1aa08dce58e72beb0a18bffe4b4fcda86dcf"
+      url "https://github.com/osrim/ski/releases/download/v0.2.2/ski-darwin-x64.tar.gz"
+      sha256 "7d60846e49b059435d7299b06ed5447a3908069a5a0b00ce1a91a353bb20d88c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/osrim/ski/releases/download/v0.2.1/ski-linux-arm64.tar.gz"
-      sha256 "86af664d10b1f3d0b1ddf0bc9613678f965d37e1b428ee621b807e195f5752ff"
+      url "https://github.com/osrim/ski/releases/download/v0.2.2/ski-linux-arm64.tar.gz"
+      sha256 "87e93dcc93142b04a6205e2791520b879904abb4e1ce0fc8b14053e972d1864e"
     else
-      url "https://github.com/osrim/ski/releases/download/v0.2.1/ski-linux-x64.tar.gz"
-      sha256 "27de60320efbb6db76ed4893943d3b05220421869d4dfc2123d24c889cd953dd"
+      url "https://github.com/osrim/ski/releases/download/v0.2.2/ski-linux-x64.tar.gz"
+      sha256 "bb14a49e9f668f2519dcc66bb9294b8cdf8898a5953e66f6117121c8d9143335"
     end
   end
 
