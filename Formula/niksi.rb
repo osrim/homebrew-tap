@@ -1,28 +1,28 @@
 class Niksi < Formula
   desc "Install, review, and share agent skills"
   homepage "https://github.com/osrim/niksi"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   depends_on "git"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/osrim/niksi/releases/download/v0.4.0/niksi-darwin-arm64.tar.gz"
-      sha256 "e7980e68125d34040a7bca59cf1cbef8d89033a2402f07f599ecf361a8687769"
+      url "https://github.com/osrim/niksi/releases/download/v0.4.1/niksi-darwin-arm64.tar.gz"
+      sha256 "f102fe9683248ecb70a9a5e467900ef27d231696cebbb9372996dd36736fc115"
     else
-      url "https://github.com/osrim/niksi/releases/download/v0.4.0/niksi-darwin-x64.tar.gz"
-      sha256 "44ea27a7beee72f575a5a549bb99bfbb06f5956e904808dbfe393bf9b154ceaa"
+      url "https://github.com/osrim/niksi/releases/download/v0.4.1/niksi-darwin-x64.tar.gz"
+      sha256 "25705dd8ac61e31bf0cb0a764dfdefd4824e40c2ab5b766530f55a5c9a1de6ca"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/osrim/niksi/releases/download/v0.4.0/niksi-linux-arm64.tar.gz"
-      sha256 "2572c8f581d9258d5eca256bc394751ca4fcc922ce934eec57d6e28ceeabb1fe"
+      url "https://github.com/osrim/niksi/releases/download/v0.4.1/niksi-linux-arm64.tar.gz"
+      sha256 "178e4b797eb83e736d530824c5a5721e453633a016d4d8e5d5c02570baa7e2ea"
     else
-      url "https://github.com/osrim/niksi/releases/download/v0.4.0/niksi-linux-x64.tar.gz"
-      sha256 "6250033fa28ef73355c8669322d751dbdc839498e3f9a3b8c9ddba5d8e5f4c7a"
+      url "https://github.com/osrim/niksi/releases/download/v0.4.1/niksi-linux-x64.tar.gz"
+      sha256 "cfac1b7aa50d4a7552dc10ae376e749729d994b8d94589d61d9107116509ff55"
     end
   end
 
