@@ -9,20 +9,20 @@ class Niksi < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/osrim/niksi/releases/download/v0.4.1/niksi-darwin-arm64.tar.gz"
-      sha256 "f102fe9683248ecb70a9a5e467900ef27d231696cebbb9372996dd36736fc115"
+      sha256 "0bd1aa6331f11d26689ecc4811d0f03252e197351e8e6ad1c13ff36e5b4c7142"
     else
       url "https://github.com/osrim/niksi/releases/download/v0.4.1/niksi-darwin-x64.tar.gz"
-      sha256 "25705dd8ac61e31bf0cb0a764dfdefd4824e40c2ab5b766530f55a5c9a1de6ca"
+      sha256 "5989ba2e5c0d9da3af9d95e2fd040988c8cb5cea843102d6a25636b26ec6b553"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/osrim/niksi/releases/download/v0.4.1/niksi-linux-arm64.tar.gz"
-      sha256 "178e4b797eb83e736d530824c5a5721e453633a016d4d8e5d5c02570baa7e2ea"
+      sha256 "e2de4197acdb6ab5197dd9ffca6d13eba4483e7f19d948977a580ad0a7cdc112"
     else
       url "https://github.com/osrim/niksi/releases/download/v0.4.1/niksi-linux-x64.tar.gz"
-      sha256 "cfac1b7aa50d4a7552dc10ae376e749729d994b8d94589d61d9107116509ff55"
+      sha256 "06c64acf2e801272597f23cbe2281397a0d8be6a5a066ad0688e9e68acc679b7"
     end
   end
 
